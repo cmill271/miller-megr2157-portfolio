@@ -63,6 +63,7 @@ The first decision I made was to rework the first paragraph to make it read like
 b.
 
 I changed the title of the "About Me" section to "About Jed". This reinforces who the reader is learning about, and removes any ambiguity on who's site this is.
+
 c.
 
 I aim to provide a clear and concise website that clearly communicates my ideas and the engineering concepts discussed in the class, and comes across to readers as professional and well spoken. 
