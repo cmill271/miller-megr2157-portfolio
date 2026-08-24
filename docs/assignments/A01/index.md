@@ -32,6 +32,9 @@ Photo 1.
 <img width="750" height="916" alt="image" src="https://github.com/user-attachments/assets/f8794146-027f-455e-b41d-11ca284c4b60" />
 Photo 2.
 
+<img width="1122" height="901" alt="image" src="https://github.com/user-attachments/assets/19dd7935-0c75-4d06-8d0f-1e9da14137f6" />
+Photo 3.
+
 The clip itself (Photo 1 and 2)  is made of spring steel sheet metal that was stamped and bent in such a way that the clip remains closed unless an outside force acts upon the levers. A curl is applied to opposing edges to give the bent spring steel rods something to grab onto. The wide base of the clip allows the levers and point on which to lever, multiplying the users force, making the opening of the clip easier.
 
 The levers (Photo 1 and 2) are bent in such a manner that in order to attach them to the clip, the same deflection equation is applied to seat the levers in the curled holes in the clip. Once seated they are allowed one degree of rotation to act as a lever on the clip. These levers allow the user to open and close the clamp with relative ease. 
