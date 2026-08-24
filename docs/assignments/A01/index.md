@@ -47,7 +47,12 @@ Two alternative solutions would be a paperclip or staple. Both serve the purpose
 Looking at photo 2, there is an additional curled area that does not loop all the way around to secure the lever like the ones on either side. I believe that this choice was made to aid in the production of the device. The curled metal allows a back stop for the lever to hit so that it may be inserted in the loops on either side. This aids greatly in my manual assembly, how ever I think the choice was made specifically for mass production.
 
 ## Decide
-
-
+Part 2:
+a.
+The first decision I made was to rework the first paragraph to make it read like I am speaking to the reader, not the instructor speaking to me. This simple change makes the homepage mine, and changes the voice to mine. I also added a portrait photograph of myself to give a face to readers as they look at my work. The third decision I made was to change the default color to red, as it draws attention better than the green that was standard.
+b.
+I changed the title of the "About Me" section to "About Jed". This reinforces who the reader is learning about, and removes any ambiguity on who's site this is.
+c. 
+I aim to provide a clear and concise website that clearly communicates my ideas and the engineering concepts discussed in the class, and comes across to readers as professional and well spoken. 
 ## Communicate
 
