@@ -1,5 +1,5 @@
 #About Me
-My name is Jed Miller, and I am perusing my BSME at the University of North Carolina at Charlotte. I decided on Mechanical Engineering because it allows me to relate the things I am learning to real world objects and principles. My goal is to find a career in automation in manufacturing or petroleum refinement. Engineering is a fascinating, broad and complex field that emphasizes one thing above all else: problem solving. I was drawn to it for that reason. I aim to use the next 2 years of my education, my career, and the rest of my life to master the ability to understand, plan for, and solve problems. 
+My name is Jed Miller, and I am presuing my BSME at the University of North Carolina at Charlotte. I decided on Mechanical Engineering because it allows me to relate the things I am learning to real world objects and principles. My goal is to find a career in automation in manufacturing or petroleum refinement. Engineering is a fascinating, broad and complex field that emphasizes one thing above all else: problem solving. I was drawn to it for that reason. I aim to use the next 2 years of my education, my career, and the rest of my life to master the ability to understand, plan for, and solve problems. 
 
 "What does it mean to defend an engineering decision : and do you currently know how to do it?" 
 
