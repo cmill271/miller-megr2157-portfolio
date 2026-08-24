@@ -23,6 +23,7 @@ b.
 The primary governing model for this device is the equation for deflection of a cantilever beam, with the amount of deflection corresponding to the force required from the user to operate.
 
 <img width="591" height="296" alt="image" src="https://github.com/user-attachments/assets/4db3fd3d-e423-469d-b29e-4c45e3076409" />
+
 Figure 1.
 
 With sigma representing the deflection, F is the force imparted by the user, L the length of the beam, E as the Young's Modulus and I being the moment of area for the item. 
