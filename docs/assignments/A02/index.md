@@ -47,6 +47,11 @@ We were also asked to solve for the estimated weight of the pins. The product of
 
 ## CAD Model of Truss
 
+The longest and most tedious part of this assignment was modeling the Truss and testing it in CAD. My chosen software is Creo Parametric. To start we first made a sketch of the truss. Ignore the listed dimensions, as tidying up the sketch so Creo would properly extrude the material threw off the perfect points and measurements. 
+
+<img width="1387" height="568" alt="image" src="https://github.com/user-attachments/assets/6af46a2e-91c4-4606-8b9e-9c36524fd14b" />
+
+
 ## Lessons Learned
 
 This exercise was an excellent refresher on my Statics and Mechanics skills. I learned a better method for finding the sheer stress in a pin than I had used previously, saving me time and effort. Drawing the FBD for the pin helped me to visualize the forces better and kept the numbers from getting mixed together.
