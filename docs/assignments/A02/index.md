@@ -51,6 +51,14 @@ The longest and most tedious part of this assignment was modeling the Truss and 
 
 <img width="1387" height="568" alt="image" src="https://github.com/user-attachments/assets/6af46a2e-91c4-4606-8b9e-9c36524fd14b" />
 
+Once we extrude, we're left with our truss. Modeling this is CAD allows us to virtually test and examine the truss as a whole before any physical pieces start to come together. 
+
+<img width="1123" height="529" alt="image" src="https://github.com/user-attachments/assets/b345cef7-253d-4e30-951b-341d3b33aa6e" />
+
+Here is where I ran into my first real issue with Creo Parametric, it repeatedly gave me incorrect readings for the part. I was unable to correct for what ever error I was making in time for the assignment's due date. The error I was encountering was the units for the design, while I designed it in SI units, the read out was only giving me Imperial and for a far smaller structure. I am seeking more information to correct for this error. 
+
+<img width="244" height="62" alt="image" src="https://github.com/user-attachments/assets/22899914-3af1-4c95-a7d9-3b4a8766c6ac" />
+
 
 ## Lessons Learned
 
@@ -81,6 +89,8 @@ Under a tensile force, the material is pulled rather than compressed. The thickn
 
 Dealing with the members of the truss our main enemies are compressive and tensile forces acting upon them. Luckily engineers have spend all of history solving these problems. The first solution we have is design. You'll notice that the shape made by each member of the truss is a triangle. The triangle shape is very strong, allowing for the distribution of a load across all 3 members that make it. The next solution we have is material choice. A500 steel is perfect for our design. It is a ductile material, meaning it can undergo significant plastic deformation before any permanent deformations occur. It's tubular shape is also perfect for adding rigidity to less material, saving on cost and weight.
 
+Sources: [Tensile Response of Materials - Engineering Libretexts](https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Mechanics_of_Materials_(Roylance)/01%3A_Tensile_Response_of_Materials) and [Stress, Strain, and Spring Force - Engineering Libretexts](https://phys.libretexts.org/Courses/Georgia_State_University/GSU-TM-Physics_I_(2211)/04%3A_Forces/4.07%3A_Common_Forces_-_Stress_Strain_and_the_Spring_Force)
+
 
 ### 3) Connection point failure.
 
@@ -90,9 +100,11 @@ The failure point of a pin comes down to the sheer forces applied to it. If the 
 
 The image above represents the single sheer pin system we used in this design. The "single" in single sheer represents the single plane where the sheer force is applied. Adding additional material and alternating the material creates more planes, think of a door hinge. If you applied the same load to a double sheer pin, the amount of sheer force acting on each plane would halve. Since we were limited to a single sheer pin design for this assignment, we compensated with the thickness of the material. by ensuring the material was thick enough to with stand a force 4 times greater (the Factor of Safety being 4), we can ensure that the pin is thick enough to withstand the forces applied. To even further reduce this likelihood of failure we can make it a double or triple sheer.   
 
+Source: [Sheer Stress - Engineering Libretexts](https://eng.libretexts.org/Bookshelves/Civil_Engineering/Fluid_Mechanics_(Bar-Meir)/00%3A_Introduction/1.3%3A_Kinds_of_Fluids/Shear_Stress)
+
 ## Decide
 
-I believe that my design choices were correct for this assignment. 
+I believe that my design choices were correct for this assignment. Despite the issue with the CAD software on my end, I am confident in the structural rigidity and performance of this truss design. 
 
 ## Sources
 
