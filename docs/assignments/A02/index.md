@@ -59,9 +59,41 @@ This exercise was an excellent refresher on my Statics and Mechanics skills. I l
 
 ## Failure Modes in Truss Components
 
+In a truss there are 3 main forces that account for the majority of failures: 
+
+### 1) A member buckling due to a compressive force.
+
+Looking at our design the following members fall under compression: BC, CF, and AF. 
+
+<img width="506" height="320" alt="image" src="https://github.com/user-attachments/assets/aa2c1158-c307-41b2-aa83-3e880f28dfab" />
+
+When a member is placed under compression, the slenderness of the object becomes an issue. If the material is too thin or has the incorrect material properties for the job it will buckle under the force of the load. A single uncooked spaghetti noodle when placed under under a compressive force will buckle almost immediately, and fracture soon after. We can solve this by using more spaghetti noodles, combining them until we have a member that is rather compressible before and buckling or failure occurs. Buckling can be catastrophic for the truss, so important measures like adding more material can be taken to prevent it. However, adding too much material can add unnecessary or inhibitive amounts of weight. Choosing the right material for the task is key. In our case we designed the truss using A500 steel, a common structural steel that is perfect for the task.
+
+### 2) A member fracturing due to tensile force.
+
+Looking at our design the following members fall under a tensile force: BE, EF, CD, DF and AD. 
+
+<img width="530" height="340" alt="image" src="https://github.com/user-attachments/assets/0ecbef7e-7e2d-49dc-ac26-fd66f21b6f5e" />
+
+Under a tensile force, the material is pulled rather than compressed. The thickness of the material becomes important. Often times the body of the member is not most susceptible to a tensile force, its areas where the material must be thinned for the design. When I go flyfishing in a tiny trout stream in the mountains, the fish are small and cannot exert a tensile force great enough to break any line I carry, however when I went deep sea fishing the larger fish are able to exert a larger tensile force on the line, so I have to compensate with a thicker fishing line. More often than not, when I lose a fish or a fly, it is because the failure point was where I tied the fly to the line. In our design that would be where material is removed to allow pins to connect two or more members. This thinner material has less surface area connecting the material to itself, making it weaker.
+
+### Solutions for 1 & 2. 
+
+Dealing with the members of the truss our main enemies are compressive and tensile forces acting upon them. Luckily engineers have spend all of history solving these problems. The first solution we have is design. You'll notice that the shape made by each member of the truss is a triangle. The triangle shape is very strong, allowing for the distribution of a load across all 3 members that make it. The next solution we have is material choice. A500 steel is perfect for our design. It is a ductile material, meaning it can undergo significant plastic deformation before any permanent deformations occur. It's tubular shape is also perfect for adding rigidity to less material, saving on cost and weight.
+
+
+## 3) Connection point failure.
+
+The failure point of a pin comes down to the sheer forces applied to it. If the shear force becomes too great, the pin itself will sheer and the connection point will be compromised at best, or completely lost as worse. 
+
+<img width="332" height="270" alt="image" src="https://github.com/user-attachments/assets/edafd031-1dbb-43cc-880d-33a9e8da0236" />
+
+The image above represents the single sheer pin system we used in this design. The "single" in single sheer represents the single plane where the sheer force is applied. Adding additional material and alternating the material creates more planes, think of a door hinge. If you applied the same load to a double sheer pin, the amount of sheer force acting on each plane would halve. Since we were limited to a single sheer pin design for this assignment, we compensated with the thickness of the material. by ensuring the material was thick enough to with stand a force 4 times greater (the Factor of Safety being 4), we can ensure that the pin is thick enough to withstand the forces applied. To even further reduce this likelihood of failure we can make it a double or triple sheer.   
 
 ## Decide
-_Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
-## Communicate
+I believe that my design choices were correct for this assignment. 
+
+## Sources
+
 
