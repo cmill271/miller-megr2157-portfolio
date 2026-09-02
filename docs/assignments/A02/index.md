@@ -1,6 +1,8 @@
 # A2 – Truss Stress Analysis
 Assignment 2 asked to design a lightweight planar truss with the following parameters: the truss will be made of A500 Steel or an alternative material, the cross sectional area of each element is identical, the pins must also be identical, and it must fit the parameters in Figure 1 below. For the external forces acting upon points C and D, I was given the choice of a force in the range of 20-30kN, I chose 30 kN. 
+
 <img width="881" height="441" alt="image" src="https://github.com/user-attachments/assets/295a7e68-d74e-42e2-8b0e-3851c2d0bc1a" />
+
 ## My Design
 
 I chose to base the design of the truss off a standard truss bridge. This design uses triangles to handle the applied forces while using as little material as possible in an attempt to save weight. To start the process I began buy solving for the additional geometry the design called for. These calculations were made simple by the fact that my design only produces 3/4/5 triangles, giving truss' BC, CF and AD a length of 0.5 m.
@@ -106,6 +108,5 @@ Source: [Sheer Stress - Engineering Libretexts](https://eng.libretexts.org/Books
 
 I believe that my design choices were correct for this assignment. Despite the issue with the CAD software on my end, I am confident in the structural rigidity and performance of this truss design. 
 
-## Sources
 
 
