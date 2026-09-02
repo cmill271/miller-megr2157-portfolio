@@ -82,7 +82,7 @@ Under a tensile force, the material is pulled rather than compressed. The thickn
 Dealing with the members of the truss our main enemies are compressive and tensile forces acting upon them. Luckily engineers have spend all of history solving these problems. The first solution we have is design. You'll notice that the shape made by each member of the truss is a triangle. The triangle shape is very strong, allowing for the distribution of a load across all 3 members that make it. The next solution we have is material choice. A500 steel is perfect for our design. It is a ductile material, meaning it can undergo significant plastic deformation before any permanent deformations occur. It's tubular shape is also perfect for adding rigidity to less material, saving on cost and weight.
 
 
-## 3) Connection point failure.
+### 3) Connection point failure.
 
 The failure point of a pin comes down to the sheer forces applied to it. If the shear force becomes too great, the pin itself will sheer and the connection point will be compromised at best, or completely lost as worse. 
 
