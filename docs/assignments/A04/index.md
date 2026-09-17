@@ -96,3 +96,7 @@ Once we assemble them together, we are left with this:
 Below is an engineering drawing of the fully assembled Motor Mount.
 
 <img width="1131" height="798" alt="image" src="https://github.com/user-attachments/assets/bad1986b-7eb5-4bf4-a31a-c4bcbf2672b6" />
+
+### Links
+[Link to download CAD File](https://a360.co/4AjnHst)
+[Link for Drawing PDF](https://a360.co/4dhCKcg)
