@@ -67,9 +67,29 @@ An isometric drawing is a drawing from a specific angle that allows you to see 3
 
 <img width="575" height="520" alt="image" src="https://github.com/user-attachments/assets/72020198-224e-4fbf-8161-3cf1ed3a045c" />
 
-
 ## CAD Model
 
+Now we will generate the model in Fusion360. We will do this by designing the 2 Features separately and then assembling them.
+
+Starting with Feature 1 we will sketch the 50 mm x 50 mm base, as well as an 18 mm diameter hole for the motor to rest in and a 5 mm hold for the motor shaft to sit in.
+
+<img width="1916" height="1035" alt="Screenshot 2026-09-16 195522" src="https://github.com/user-attachments/assets/36e12017-3352-4df4-9cb6-a08cf3b864f0" />
+
+Once we extrude them we are left with our finished Feature 1 part in Fusion360.
+
+<img width="1918" height="979" alt="Screenshot 2026-09-16 195728" src="https://github.com/user-attachments/assets/ab720aea-f5bc-4a62-96dc-f2ada710cc48" />
+
+Now we will do the same for Feature 2. Because Feature 2 needs to attach to the wall, we have left 4 x 3.4 mm holes for the screws. 
+
+<img width="1916" height="988" alt="Screenshot 2026-09-16 200317" src="https://github.com/user-attachments/assets/ef49ec3e-f853-40ae-9598-4c9ba9ee5c6f" />
+
+Once we extrude, we get our finished product for Feature 2.
+
+<img width="1917" height="977" alt="Screenshot 2026-09-16 200351" src="https://github.com/user-attachments/assets/e62cd85d-1078-4483-813a-5c51f2a55414" />
+
+Once we assemble them together, we are left with this:
+
+<img width="1916" height="978" alt="Screenshot 2026-09-16 200924" src="https://github.com/user-attachments/assets/f0d99e3f-2904-47a6-80f7-c39c1f5d8833" />
 
 ## Drawings
 
