@@ -93,3 +93,6 @@ Once we assemble them together, we are left with this:
 
 ## Drawings
 
+Below is an engineering drawing of the fully assembled Motor Mount.
+
+<img width="1131" height="798" alt="image" src="https://github.com/user-attachments/assets/bad1986b-7eb5-4bf4-a31a-c4bcbf2672b6" />
