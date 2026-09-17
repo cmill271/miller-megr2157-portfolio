@@ -38,15 +38,37 @@ In order to properly support the motor and limit the deflection Feature one requ
 
 <img width="783" height="84" alt="image" src="https://github.com/user-attachments/assets/ee848e4d-0bd4-41f1-bb5d-652e006c25c3" />
 
-As you can see in the image above, with a height of 20 mm, there is 0.179 mm of deflection. This leave 0.121 mm of deflection for Feature 2.
+As you can see in the image above, with a height of 20 mm, there is 0.179 mm of deflection. This leaves 0.121 mm of deflection for Feature 2.
 
 ## Feature 2
+
+Feature 2 connects Feature 1 to the wall. In order to solve for the cross sectional area we will be required to decide on the length and width as well. I chose 50 mm for both, allowing the two parts to join together evenly.
+
+### Deflection
+
+Because Feature 2's deflection will not be immediately noticed at the edge of the feature we will account for that by multiplying the the angle of the deflection by the length of Feature 1. This will amplify what ever the deflection is so that we can see what the result is at the edge of Feature 1.
+
+<img width="968" height="666" alt="image" src="https://github.com/user-attachments/assets/cf6e32f2-8aba-491b-b0ef-0d2886b8273c" />
+
+Once we have our two equations combined, we can plug in the numbers and solve! As you can see the thickness required for Feature 2 is 32.8 mm.
+
+### Stress
+
+While that showed us the thickness to required to stay within the constraints we were given for deflection, we have to ensure that the Feature will hold up to the stresses applied to it. To do this, we will be solving for the stress.
+
+<img width="918" height="501" alt="image" src="https://github.com/user-attachments/assets/3f62347b-e7d8-473c-bd20-6eef0c90e86b" />
+
+Once we solve our equations, we see that we are left with a max stress of 1.67 MPa. This value is well below our 16 MPa maximum stress and our 48 MPa yield strength.
 
 
 ## Isometric Drawing
 
+An isometric drawing is a drawing from a specific angle that allows you to see 3 sides of the object, while leaving the dimensions accurate. Below is an Isometric drawing of the part assembled. Note that because this was drawn by hand the dimensions are not 100% to scale.
 
-## CAD Model (Parametric)
+<img width="575" height="520" alt="image" src="https://github.com/user-attachments/assets/72020198-224e-4fbf-8161-3cf1ed3a045c" />
+
+
+## CAD Model
 
 
 ## Drawings
