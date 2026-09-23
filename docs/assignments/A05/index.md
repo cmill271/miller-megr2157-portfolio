@@ -1,10 +1,14 @@
 # A5 – Bracket Design
 
-Constraints and Givens:
+This week's design involves designing a bracket to hold a strap, which applies a load to that bracket. We will be using 2 different approaches to the design: Stress and Stiffness analysis. 
+
+### Constraints and Givens:
 
 <img width="567" height="266" alt="image" src="https://github.com/user-attachments/assets/be46312e-136e-49a1-8350-1000b7cd4db4" />
 
-Aluminum 6061 Characteristics:
+### Aluminum 6061 Characteristics:
+
+For my material, I have chosen Aluminum 6061. I have chosen this over the steel and titanium options because it meets all of the strength requirements, as well as being vastly easier to machine.
 
 <img width="412" height="130" alt="image" src="https://github.com/user-attachments/assets/1d6f9a5e-e920-4057-96b0-b02f2f8be0fe" />
 
@@ -21,6 +25,8 @@ Rough Geometry Example:
 
 ### Feature 1
 
+Feature 1 is the pin on which the strap will rest. If you are looking at the Rough Geometry Example provided in class, it is section A. This piece will be modeled after a cantilever beam with a load in the center.
+
 #### Assumptions, Knowns and Unknowns:
 
 <img width="768" height="390" alt="image" src="https://github.com/user-attachments/assets/751848b9-7489-4783-9af2-de3a18541c4c" />
@@ -29,8 +35,11 @@ Rough Geometry Example:
 
 <img width="785" height="364" alt="image" src="https://github.com/user-attachments/assets/ce5a879e-3166-445c-a3b8-edf6893a23c0" />
 
+The final Pin diameter is 0.386 in.
 
 ### Feature 2
+
+Feature 2 is the bar which connects the pin to the body of the bracket. On the rough geometry example above, it is section B. This piece will be modeled after a bar under axial load. Notice how I have halved the force. For Feature 2 I will be using the symetry of the design to my benefit, halving the force and dimensions. While not 100% necessary for Feature 2, my reasoning will be better displayed on Features 4 and 5.
 
 #### Assumptions, Knowns and Unknowns:
 
@@ -40,7 +49,11 @@ Rough Geometry Example:
 
 <img width="540" height="297" alt="image" src="https://github.com/user-attachments/assets/1ca16332-d625-48b6-bd53-0e08b90ab92e" />
 
+The final thickness for the bar is 0.155 in.
+
 ### Feature 3 
+
+Feature 3 is the base of the bracket which connects to the T beam. On the Rough Geometry Example it is section C. This will be modeled after a simply supported beam with a load in the center of it.
 
 #### Assumptions, Knowns and Unknowns:
 
@@ -103,5 +116,13 @@ Rough Geometry Example:
 
 <img width="524" height="314" alt="image" src="https://github.com/user-attachments/assets/efa674dc-f776-4fb4-a877-305a7d021016" />
 
-## Communicate
+## Lessons Learned
+
+### Governing failure mode:
+
+
+### Error propagation:
+
+
+### Assumption sensitivity: 
 
