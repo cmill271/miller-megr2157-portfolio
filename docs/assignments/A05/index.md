@@ -53,7 +53,7 @@ The final thickness for the bar is 0.155 in.
 
 ### Feature 3 
 
-Feature 3 is the base of the bracket which connects to the T beam. On the Rough Geometry Example it is section C. This will be modeled after a simply supported beam with a load in the center of it.
+Feature 3 is the base of the bracket which connects to the T beam. On the Rough Geometry Example it is section C. This will be modeled after a simply supported beam with a load in the center of it. Notice how for this feature, I have not halved the force. I have done this because solving for a simply supported beam is easier than solving for 2 cantilever beams. 
 
 #### Assumptions, Knowns and Unknowns:
 
@@ -63,7 +63,11 @@ Feature 3 is the base of the bracket which connects to the T beam. On the Rough 
 
 <img width="720" height="366" alt="image" src="https://github.com/user-attachments/assets/80d60bbe-f0c7-49a4-8f7d-c418e4772247" />
 
+The final thickness for the bracket base is 0.474 in.
+
 ### Feature 4
+
+Feature 4 is the "wall" or arms of the bracket, connecting the base to the overhanging Feature 5. This will also be modeled as a bar under axial load. Note how I have halved the force. This is because of the symmetry of the design. This allows me to solve for one side of the bracket, since the load will be evenly distributed between both arms. 
 
 #### Assumptions, Knowns and Unknowns:
 
@@ -73,8 +77,11 @@ Feature 3 is the base of the bracket which connects to the T beam. On the Rough 
 
 <img width="524" height="314" alt="image" src="https://github.com/user-attachments/assets/4541b6ec-b120-4b49-88d3-2a2f946c0217" />
 
+The final thickness for Feature 4 is 0.02 in.
 
 ## Stiffness Analysis
+
+Stiffness Analysis will follow the same plan as the Stress Analysis, just using different equations, as well as a new constant. The Modulus of Elasticity is a constant characteristic of the Aluminum, similar to the Yield Strength we used to solve for the Stress Analysis. It measures the materials resistance to elastic deformation when a stress is applied. 
 
 ### Feature 1
 
