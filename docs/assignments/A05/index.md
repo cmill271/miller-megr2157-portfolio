@@ -81,7 +81,7 @@ The final thickness for Feature 4 is 0.02 in.
 
 ## Stiffness Analysis
 
-Stiffness Analysis will follow the same plan as the Stress Analysis, just using different equations, as well as a new constant. The Modulus of Elasticity is a constant characteristic of the Aluminum, similar to the Yield Strength we used to solve for the Stress Analysis. It measures the materials resistance to elastic deformation when a stress is applied. 
+Stiffness Analysis will follow the same plan as the Stress Analysis, just using different equations, as well as a new constant. The Modulus of Elasticity is a constant characteristic of the Aluminum, similar to the Yield Strength we used to solve for the Stress Analysis. It measures the materials resistance to elastic deformation when a stress is applied. Many of the Assumptions and Unknowns will not change while solving for the thickness using Stiffness Analysis.
 
 ### Feature 1
 
@@ -93,6 +93,8 @@ Stiffness Analysis will follow the same plan as the Stress Analysis, just using 
 
 <img width="752" height="433" alt="image" src="https://github.com/user-attachments/assets/77dbd49b-c7b1-4d4d-b669-e9cb0daedf5f" />
 
+The thickness for Feature 1 using Stiffness Analysis is 0.192 in. Note how similar that is is Feature 1's radius (0.193 in).
+
 ### Feature 2
 
 #### Assumptions, Knowns and Unknowns:
@@ -102,6 +104,8 @@ Stiffness Analysis will follow the same plan as the Stress Analysis, just using 
 #### Solving:
 
 <img width="686" height="203" alt="image" src="https://github.com/user-attachments/assets/4848b0d9-e0ff-4df6-969a-ea0464a6a2f3" />
+
+The thickness for feature 2 is 0.031 in.
 
 ### Feature 3 
 
@@ -113,6 +117,8 @@ Stiffness Analysis will follow the same plan as the Stress Analysis, just using 
 
 <img width="697" height="416" alt="image" src="https://github.com/user-attachments/assets/b4a24c5d-7cef-4c9a-b59c-4f3c2ab6837b" />
 
+The thickness for feature 3 is 0.361 in.
+
 ### Feature 4
 
 #### Assumptions, Knowns and Unknowns:
@@ -123,13 +129,19 @@ Stiffness Analysis will follow the same plan as the Stress Analysis, just using 
 
 <img width="524" height="314" alt="image" src="https://github.com/user-attachments/assets/efa674dc-f776-4fb4-a877-305a7d021016" />
 
+The thickness for feature 4 is 0.004 in.
+
 ## Lessons Learned
 
 ### Governing failure mode:
 
+The closest final dimension we've seen between 2 features is with feature 3, being just slightly more than 1/10 an inch apart. 
 
 ### Error propagation:
 
+Remember when I mentioned how similar the radius of the Feature 1's Stress Analysis is to the diameter of Feature 1's Stiffness analysis? I went ahead with the Stress Diameter until I started on this webpage, where I noticed it while screenshotting the work to put in here. The damage was minimal, I just had to rework a few problems. Still a valuable mistake to be made here, rather than outside of an educational environment. 
 
 ### Assumption sensitivity: 
+
+One assumption I made was the length of the pin in Feature 1. I chose a length of 0.75 in so that the strap would rest nicely on it when in use, and it also made the math easier. If it were incorrect, or needed to be adjusted, it would mostly be isolate to changing the final pin diameter of the Feature.
 
