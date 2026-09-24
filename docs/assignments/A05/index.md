@@ -145,3 +145,12 @@ Remember when I mentioned how similar the radius of the Feature 1's Stress Analy
 
 One assumption I made was the length of the pin in Feature 1. I chose a length of 0.75 in so that the strap would rest nicely on it when in use, and it also made the math easier. If it were incorrect, or needed to be adjusted, it would mostly be isolate to changing the final pin diameter of the Feature.
 
+## Multiview Drawings
+
+### Stress Analysis Drawing
+
+<img width="553" height="569" alt="image" src="https://github.com/user-attachments/assets/5a11b85e-2b86-4bba-83be-3bed9575bc4c" />
+
+### Stiffness Analysis Drawing
+
+<img width="539" height="565" alt="image" src="https://github.com/user-attachments/assets/20913cdd-2052-4ec8-a8ad-bd691d1c4aab" />
