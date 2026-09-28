@@ -14,6 +14,14 @@ Arm Design:
 
 Feature 3
 Parametric Design of Base:
+<img width="1344" height="530" alt="image" src="https://github.com/user-attachments/assets/1516ee52-a778-437d-83f1-812608278be9" />
+Base Design:
+<img width="832" height="421" alt="image" src="https://github.com/user-attachments/assets/09f5336c-6774-4d79-b4d7-a31000361b4f" />
+
+Feature 4
+Parametric Design of Wall:
+
+
 
 
 
