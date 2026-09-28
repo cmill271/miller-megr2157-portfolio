@@ -4,7 +4,7 @@ Feature 1
 Parametric design of Pin:
 <img width="1370" height="575" alt="image" src="https://github.com/user-attachments/assets/ed3d3454-60ce-42f9-b195-dea58cbec57b" />
 Pin design:
-<img width="724" height="771" alt="image" src="https://github.com/user-attachments/assets/6dac6bca-54ca-4645-9dce-c1356e6c328f" />
+<img width="807" height="658" alt="image" src="https://github.com/user-attachments/assets/92864074-23bb-4308-b877-bc87b3ab2552" />
 
 Feature 2 
 Parametric Design of Arm:
@@ -20,8 +20,17 @@ Base Design:
 
 Feature 4
 Parametric Design of Wall:
+<img width="1316" height="528" alt="image" src="https://github.com/user-attachments/assets/c727bac5-39fb-45d7-b391-6b02e70e85a3" />
+Wall Design:
+<img width="748" height="742" alt="image" src="https://github.com/user-attachments/assets/777ea9e5-5ecc-4167-9cd2-b52025675239" />
 
+Feature 5
+Parametric Design of Top:
+<img width="1348" height="545" alt="image" src="https://github.com/user-attachments/assets/97d8df9f-3f54-4772-a6b6-5a68dfe4634d" />
+Model of Top:
+<img width="877" height="615" alt="image" src="https://github.com/user-attachments/assets/bdbd6639-9073-4194-bfc9-f8ff48133e41" />
 
+Assembly:
 
 
 
