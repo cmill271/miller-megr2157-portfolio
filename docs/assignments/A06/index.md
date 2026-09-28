@@ -31,6 +31,10 @@ Model of Top:
 <img width="877" height="615" alt="image" src="https://github.com/user-attachments/assets/bdbd6639-9073-4194-bfc9-f8ff48133e41" />
 
 Assembly:
+<img width="697" height="690" alt="image" src="https://github.com/user-attachments/assets/ab4817d0-b37c-4bd2-85ff-dbc56ad23b21" />
+
+Drawing:
+
 
 
 
