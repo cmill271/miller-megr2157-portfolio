@@ -101,3 +101,5 @@ T beam dimensions:
 
 As you can see, section b had very tight tolerances. By adjusting the tolerances for my part, I have allowed for the fit to be snug while keeping the rest of the part simpler to manufacture.
 
+
+
