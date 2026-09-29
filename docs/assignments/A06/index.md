@@ -72,5 +72,8 @@ For each feature of the bracket we will include an image of the parametric desig
 
 # Equation Analysis: Paper vs Parametric
 
+For the equation analysis I will be looking at Feature 1 specifically. 
+
+
 # Tolerance Analysis
 
