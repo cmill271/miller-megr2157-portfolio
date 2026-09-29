@@ -74,6 +74,30 @@ For each feature of the bracket we will include an image of the parametric desig
 
 For the equation analysis I will be looking at Feature 1 specifically. 
 
+#### Hand Calculation:
+
+<img width="785" height="364" alt="image" src="https://github.com/user-attachments/assets/b83ec77a-5971-47b4-9e6b-7ff9fa502b39" />
+
+#### Solving in Fusion:
+
+<img width="1370" height="575" alt="image" src="https://github.com/user-attachments/assets/ed3d3454-60ce-42f9-b195-dea58cbec57b" />
+
+As you can see, I am taking a very similar approach with the two different methods. For both I am taking my knowns and assumptions and plugging them into the equation I derived to solve for my unknown. What is difficult about the parametric design process, especially when compared to hand calculations, is properly formatting my equations so Fusion can recognize what I am attempting to do. I spent 30 minutes alone using every resource I had available to me to figure out how to get it properly formatted. Eventually I was able to figure it out by including additional units for where the computer may have canceled them out, or it just wasn't registering. Note how I included the "*1 in" at the end. I did this by writing out every unit, or unit equivalent, and removed one at a time unit it worked. While it did work for this assignment, I will be doing further research into it, and possibly switching to Solidworks for future assignments.  
+
 
 # Tolerance Analysis
+
+For the tolerance analysis I will be looking at the width of Feature 5.
+
+#### Feature 5 Tolerance:
+
+<img width="296" height="150" alt="image" src="https://github.com/user-attachments/assets/7cfbb059-3814-4045-8e37-55eab9fd652a" />
+
+For all of the tolerances I tried to do the minimum required so I could attempt to minimize the complexity of manufacturing the part. This decrease in complexity saves time and money when manufacturing. For this Tolerance however I chose to take it to the thousands place, because the tolerances on the t beam were so tight. I wanted where the connection occurs to be a snug fit.
+
+T beam dimensions:
+
+<img width="388" height="242" alt="image" src="https://github.com/user-attachments/assets/aa8be56f-cdc3-4853-96b3-64ee83e6648f" />
+
+As you can see, section b had very tight tolerances. By adjusting the tolerances for my part, I have allowed for the fit to be snug while keeping the rest of the part simpler to manufacture.
 
