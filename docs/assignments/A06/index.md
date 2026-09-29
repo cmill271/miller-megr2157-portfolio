@@ -62,7 +62,7 @@ For each feature of the bracket we will include an image of the parametric desig
 
 [Link to Download CAD File](https://a360.co/4z9u8Ny)
 
-Drawing:
+# Drawing:
 
 <img width="1054" height="814" alt="image" src="https://github.com/user-attachments/assets/9ce93d74-e4af-440c-8470-e88339536817" />
 
@@ -70,13 +70,7 @@ Drawing:
 
 [Link to Download Drawing](https://a360.co/3VXprb2)
 
+# Equation Analysis: Paper vs Parametric
 
-
-## Analyze
-
-
-## Decide
-
-
-## Communicate
+# Tolerance Analysis
 
