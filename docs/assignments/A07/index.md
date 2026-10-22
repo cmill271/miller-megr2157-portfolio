@@ -1,5 +1,7 @@
 # A7 – FEA on Bracket
 
+### [LINK TO DOWNLOAD CAD FILE](https://a360.co/4i0vKU6)
+
 ## Objectives and Problem Formulation 
 This week we will be conducting FEA on the bracket that I parametrically designed over the last 2 assignments. Below are the conditions and restrictions.
 
