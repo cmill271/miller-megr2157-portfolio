@@ -5,6 +5,8 @@ This week we will be conducting FEA on the bracket that I parametrically designe
 
 #### Load: 600 lbforce acting on the support pin.
 
+<img width="811" height="472" alt="image" src="https://github.com/user-attachments/assets/fd338336-7d6b-4c71-8bb1-5c38632efd7a" />
+
 #### Fixed Constraints: The bottom side of the bracket, which interacts with the top of the T-beam.
 
 <img width="514" height="483" alt="image" src="https://github.com/user-attachments/assets/20c931aa-815a-439f-98ec-685c1bbb3ace" />
@@ -15,6 +17,13 @@ This week we will be conducting FEA on the bracket that I parametrically designe
 
 ## Inner Loop: Mesh Convergence Analysis
 
+### Table of Mesh Convergence Analysis Figures
+
+<img width="726" height="115" alt="image" src="https://github.com/user-attachments/assets/c88944a0-5f23-40d4-88c9-d581c29dfb03" />
+
+### Stress Analysis of Bracket. Iterations are from right to left.
+
+<img width="710" height="314" alt="image" src="https://github.com/user-attachments/assets/b1c905aa-c0fa-41e8-b6b5-a63080d25764" />
 
 ## Outer Loop: Iterative Design Optimization
 
