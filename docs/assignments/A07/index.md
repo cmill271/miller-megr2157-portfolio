@@ -40,9 +40,6 @@ This week we will be conducting FEA on the bracket that I parametrically designe
 ### Design III prior to testing.
 
 
-
-
-
-
 ## Reflections
 
+An engineering lesson that I learned is how Fusion deals with assemblies vs a solid part. Attempting to modify an assembly in Fusion took me down a 3 hour rabbit hole that ended with me having to recreate the part, export it as a step file and then I was able to join them into something modifiable. Finding resources for Fusion proved difficult, as most of the class provided ones were for CREO or Solidworks. Moving forward I am going to attempt to do future assignments in Solidworks, as that appears to be the most popular amongst my peers and is the software used by the instructor in class.
