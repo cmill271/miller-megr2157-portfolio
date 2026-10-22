@@ -27,6 +27,22 @@ This week we will be conducting FEA on the bracket that I parametrically designe
 
 ## Outer Loop: Iterative Design Optimization
 
+### Design II prior to testing.
+
+<img width="555" height="748" alt="image" src="https://github.com/user-attachments/assets/6bb0e9b4-6c92-47a0-bd43-afa6106cc189" />
+
+### Stress Analysis of Bracket. Iterations are from right to left.
+
+<img width="723" height="115" alt="image" src="https://github.com/user-attachments/assets/86427c79-620e-4689-b21a-df74dbb5433a" />
+
+<img width="889" height="421" alt="image" src="https://github.com/user-attachments/assets/a297ab76-589c-4f8b-bb4c-4b260d1f1c15" />
+
+### Design III prior to testing.
+
+
+
+
+
 
 ## Reflections
 
