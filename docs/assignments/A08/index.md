@@ -26,29 +26,49 @@ As mentioned before, the torque and RPM of the output shaft was provided for, so
 
 ## Design of Journal Bearings
 
-To properly select a bearing material, I must solve for the Load Capacity, Survace Speed and PV limit (Pressure-Velocity).
+To properly select a bearing material, I must solve for the Load Capacity, Survace Speed and PV limit (Pressure-Velocity limit).
 
 <img width="569" height="324" alt="image" src="https://github.com/user-attachments/assets/c4b3a9c1-9d6b-4815-bc6c-abbc9d070caf" />
 
 ### Input Shaft
+
+First we will solve for the Area of the cross section of the shaft. I chose the Length of 0.125 inches because this meets the standards set out in Machineries Handbook where the ratio between the length of the bearing and the diameter of the shaft should be 1.
 
 <img width="845" height="535" alt="image" src="https://github.com/user-attachments/assets/19c850bf-fe2d-46b7-ad9b-0ec8b87f421d" />
 
 
 ### Output Shaft
 
+Solving for the output shaft, we take the same approach as the input shaft. The Length to diameter ratio is 1.
+
 <img width="819" height="444" alt="image" src="https://github.com/user-attachments/assets/ad934ad9-3c63-43b5-9e9f-99671bea6b30" />
 
 
 ### Journal Bearing Thickness
+
+Solving for the Journal thickness the approach is for it to be 1/4 to 1/2 of the diameter of the shaft. Adding the diameter of the shaft and 2 * the thickness of the shaft gives us the outside diameter of the bearing. Now we can take the PV limit, dimensions and material selection and pick out our bearing from McMaster-Carr's website.
 
 <img width="728" height="501" alt="image" src="https://github.com/user-attachments/assets/a64e6635-250f-4ada-ac80-6c96439bd5bc" />
 
 
 ### Journal Bearing Selections
 
+For the 0.125" diameter shaft we went with a bronze graphite lubricated bearing. 
+
+[Link to McMaster-Carr](https://www.mcmaster.com/9368T95/)
+
+<img width="617" height="448" alt="image" src="https://github.com/user-attachments/assets/44024ad8-4b96-4e6b-92de-13afbef9cbe0" />
+
+For the 0.25" shaft, we stuck with bronze for a material.
+
+[Lint to McMaster-Carr](https://www.mcmaster.com/2867T43/)
+
+<img width="621" height="447" alt="image" src="https://github.com/user-attachments/assets/6748fba5-1a60-47f9-8034-1697fec588c7" />
+
 
 ## Sketch
+
+Below is the rough sketch of the gear box.
 
 <img width="532" height="317" alt="image" src="https://github.com/user-attachments/assets/3fcd96fc-138f-4925-99e3-6d81c74d3a9e" />
 
@@ -56,6 +76,8 @@ To properly select a bearing material, I must solve for the Load Capacity, Surva
 
 
 ### Parametric Design
+
+The following dimensions will allow us to parametrically design all components of the gear box. 
 
 <img width="822" height="395" alt="parametric" src="https://github.com/user-attachments/assets/7fd9bb96-3a3f-473b-86e8-906029eaa690" />
 
