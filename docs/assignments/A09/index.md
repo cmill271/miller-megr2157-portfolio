@@ -42,7 +42,11 @@ Solving for the shaft is relatively straight forward know that we know the tensi
 
 <img width="787" height="323" alt="image" src="https://github.com/user-attachments/assets/25c6a95a-f2c6-45c4-a6ff-b1f2fc55572f" />
 
+Solving for the shaft diameter minimum, we see that it is 0.145". While this diameter takes into account our safety factor a 3, it was difficult to find a bearing with this specific diameter. Our selected diameter is 0.25". This will make choosing a bearing much simpler, as well as add to the rigidity of the system.
+
 ## Bearings
+
+The key to selecting a bearing is the PV limit. Multiplying the pressure (P) by the rotational velocity in ft/min (V) gives us that. 
 
 #### Knowns and Unknowns
 
@@ -53,6 +57,10 @@ Solving for the shaft is relatively straight forward know that we know the tensi
 <img width="542" height="317" alt="image" src="https://github.com/user-attachments/assets/4bd9cc92-e3e1-40de-8f7a-bd46e8bafad4" />
 
 #### Bearing Selection
+
+With a PV limit of 15,712 we chose porous bronze. These bearings are impregnated with lubrications, and our selected diameter makes choosing one simple. 
+
+The bearing selected is McMaster-Carr stock number: [6391K114](https://www.mcmaster.com/6391K126/).
 
 <img width="1055" height="840" alt="image" src="https://github.com/user-attachments/assets/f88ad1d2-0962-47c1-b9d9-d863afab28e2" />
 
