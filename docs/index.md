@@ -1,4 +1,3 @@
-<img width="693" height="720" alt="image" src="https://github.com/user-attachments/assets/a3ae4c25-4867-4bb4-ac4b-8902ad1eff9a" />
 
 Jed Miller MEGR 2157 – Design Portfolio
 
