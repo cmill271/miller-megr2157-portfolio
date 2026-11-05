@@ -32,6 +32,8 @@ Once we solve for the cross sectional area, we can solve for the diameter of the
 
 ## Shaft
 
+Solving for the shaft is relatively straight forward know that we know the tensions being applied to the two pulleys. Note the change of material from the aluminum pulleys to 1060 Steel. The specific unknowns we are looking for is the maximum shear stress applied to the shaft by the belts, the moment created by the belts and finally the minimum diameter of the shaft.
+
 #### Knowns and Unknowns
 
 <img width="785" height="486" alt="image" src="https://github.com/user-attachments/assets/b1c92119-15d2-40eb-9604-a7c17e8be576" />
@@ -51,6 +53,8 @@ Once we solve for the cross sectional area, we can solve for the diameter of the
 <img width="542" height="317" alt="image" src="https://github.com/user-attachments/assets/4bd9cc92-e3e1-40de-8f7a-bd46e8bafad4" />
 
 #### Bearing Selection
+
+<img width="1055" height="840" alt="image" src="https://github.com/user-attachments/assets/f88ad1d2-0962-47c1-b9d9-d863afab28e2" />
 
 ## Lessons Learned
 
