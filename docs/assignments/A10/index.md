@@ -47,6 +47,8 @@ The resulting torque requirements were:
 
 These values represent the estimated torque needed to raise the load through the lead screw mechanisms, excluding additional drivetrain losses.
 
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/fd06b447-13d2-4d26-8ed9-2466a3c6483e" />
+
 
 ### 1.4 Lead Screw and Flange Nut Selection
 
@@ -70,6 +72,7 @@ Based on the preliminary calculations, the following commercially available comp
 
 The lead screws provide linear motion through rotation, while the flange nuts transfer axial force to the crosshead.
 
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/3588023a-ba30-4eff-822a-4cf23975ed50" />
 
 
 ### 1.5 Flange Nut Thread Strength Verification
@@ -86,6 +89,7 @@ The analysis produced:
 
 The calculated safety factor exceeds the required minimum, supporting the preliminary flange nut selection.
 
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/6a96c474-2032-4759-bc45-f282d1eb757b" />
 
 
 ## 2. Crosshead Design
@@ -107,12 +111,15 @@ Using the maximum bending moment and rectangular cross-section properties, the m
 
 A preliminary thickness of **0.875 inches** was selected, producing an estimated bending stress of 2,349 psi and an achieved strength safety factor of **14.90**.
 
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/24ff89ff-9365-42bb-87cf-6af6406dc925" />
 
 
 
 ### 2.2 Crosshead Deflection Analysis
 
 In addition to meeting the strength requirement, the crosshead must limit deflection under the maximum applied load.
+
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/24e10768-fde8-4e6b-80bc-b48638d5ad0d" />
 
 The allowable deflection was specified as 0.10 mm.
 
@@ -139,6 +146,9 @@ After evaluating both strength and deflection, the following crosshead geometry 
 | Calculated strength safety factor | 14.90 |
 | Calculated maximum deflection | 0.0727 mm |
 
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/c86d6e47-48a1-4598-ab63-9d0eb2c11e8b" />
+
+
 The crosshead incorporates two locations for the lead screw flange nuts, positioned symmetrically about its center.
 
 The selected geometry provides a substantial strength margin while keeping the calculated deflection within the specified limit. The provisional screw spacing will be coordinated with the final frame dimensions.
@@ -159,8 +169,10 @@ The following table summarizes the lead screws and flange nuts selected for the 
 
 - Lead screw: https://www.mcmaster.com/93410A112
 - Flange nut: https://www.mcmaster.com/97790A110
+- T-slot Framing: https://www.grainger.com/product/80-20-T-Slot-Framing-System-Profiles-906T85
+- 
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/5470ff9a-6ee3-4efe-ba25-0042f699ceaf" />
 
-The current subtotal includes only the two lead screws and two flange nuts. The frame selection, associated cost and any additional hardware costs will be incorporated once the remaining component specifications are finalized.
 
 The analytical design establishes the preliminary dimensions, operating requirements and selected components used in the subsequent parametric CAD modeling and structural verification.
 
@@ -173,20 +185,21 @@ Jed Miller
 
 Using the dimension calculated by Abdu, we will now model the crosshead. All other components were downloaded from Granger's or McMaster-Carr's website and required minimal processing to get ready for the assembly. Below are the variables and equations used in the parametric design of the crosshead.  
 
-
+<img width="1196" height="371" alt="image" src="https://github.com/user-attachments/assets/41dc837f-7661-4ece-b45d-5f17b85730a3" />
 
 As you can see, the model produces the same minimum height required for the forces applied as Abdu’s work. For the modeling we will be using a height of 0.875”.
 
 Below is the sketch of the crosshead before extrusion. The sketch has identical dimensions to Abdu’s.
 
-
+<img width="1299" height="718" alt="image" src="https://github.com/user-attachments/assets/f6b08e27-26fc-462c-89f9-1dde7390fa3b" />
 
 After extrusion, 2 cuts were made to allow the rim of the flange somewhere to rest and present an overall cleaner appearance. 
 
-
+<img width="1495" height="787" alt="image" src="https://github.com/user-attachments/assets/af339a70-c380-43cf-96ce-fd0b4f245e96" />
 
 The crosshead was the only component that required any other modeling. The remaining parts were sourced from McMaster-Carr and Grainger and required no additional processing besides cutting the frame material to length. Once the other parts were assembled, we are left with the final assembly below:
 
+<img width="882" height="806" alt="image" src="https://github.com/user-attachments/assets/940b2a50-817f-417e-986c-30a2282eec78" />
 
 ## Crosshead FEA
 
@@ -200,16 +213,15 @@ Initial Mass: 1140 grams
 
 Maximum von Mises stress: 411.662 psi
 
-
+<img width="1513" height="651" alt="image" src="https://github.com/user-attachments/assets/c89b7da1-110d-4684-8d67-f90a4ba80579" />
 
 Maximum Displacement: 0.002 mm
 
-
+<img width="1539" height="620" alt="image" src="https://github.com/user-attachments/assets/14f09208-d822-4153-a63f-f041aa5a227d" />
 
 Factor of Safety: 8
 
-
-
+<img width="1415" height="696" alt="image" src="https://github.com/user-attachments/assets/afb1fba3-ee03-42eb-9ff0-04587113ece4" />
 
 ### Optimization Pass
 
@@ -219,22 +231,23 @@ Mass: 1080
 
 Screenshot of the pocket:
 
+<img width="1086" height="506" alt="image" src="https://github.com/user-attachments/assets/ee811da0-39b3-4b04-b970-3ace74a6966e" />
 
 Maximum von Mises Stress: 417.47 psi
 
-
+<img width="1415" height="662" alt="image" src="https://github.com/user-attachments/assets/8c679ed5-4d21-4c9f-afa4-cfecc7424de4" />
 
 Maximum Displacement: 0.007 mm
 
-
+<img width="1509" height="679" alt="image" src="https://github.com/user-attachments/assets/42e71802-61f6-4029-8bbd-d447e3eb993f" />
 
 Safety Factor: 8
 
-
+<img width="1533" height="684" alt="image" src="https://github.com/user-attachments/assets/e029db59-ce19-4667-bf8f-2b4c7a0b8ec7" />
 
 ## Crosshead Drawing
 
-
+<img width="1678" height="879" alt="image" src="https://github.com/user-attachments/assets/662462db-3513-4ed8-8d36-5d7d8e331aa4" />
 
 Lessons Learned (Jed):
 This assignment was full of lessons learned. The biggest take away for me was getting the lead screw and flange nut to work together in Solidworks assembly. It took me some time to figure it out but using the mechanical option when mating parts and selecting the screw category made it easy. I also learned that I have an issue in my solidworks account that does not allow me to properly run simulations. This was not a problem, as I was able to download the .step file, import it to Fusion and complete the FEA on the crosshead there. 
