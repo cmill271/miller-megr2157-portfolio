@@ -16,6 +16,8 @@ For preliminary sizing, AISI 1045 carbon steel was assumed, with an estimated yi
 
 Using axial tensile stress, the minimum required screw diameter was calculated as **3.57 mm**. This provides an initial strength requirement for selecting a commercially available lead screw.
 
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/a6cd1e18-756d-4aeb-8b01-19753cf1f98f" />
+
 
 ### 1.2 Lead Screw Rotational Speed
 
@@ -27,6 +29,9 @@ The required rotational speeds were calculated as:
 - Maximum rotational speed: **19.69 rpm**
 
 This establishes the rotational speed range required to achieve the specified crosshead motion.
+
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/8f8c5d85-002e-42ff-905e-73767176de8a" />
+
 
 
 ### 1.3 Lead Screw Torque
