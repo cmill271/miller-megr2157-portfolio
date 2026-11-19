@@ -356,7 +356,7 @@ The working SolidWorks models include the imported gearmotor, custom mounting pl
 
 ## 13. Conclusion
 
-The current A11 work establishes a motorized-drive concept and preliminary structural integration for the dual-lead-screw tensile tester. We selected geared motors, analyzed motor and frame connections, selected a commercial shaft coupling and modeled the lower floating supports. Our calculations guided component sizing, while SolidWorks exposed several fit and assembly details that were not obvious from nominal catalog dimensions. Jed's remaining FEA, frame modifications, drawing work and our combined cost estimate will complete the final team portfolio.
+The current A11 work establishes a motorized-drive concept and preliminary structural integration for the dual-lead-screw tensile tester. We selected geared motors, analyzed motor and frame connections, selected a commercial shaft coupling and modeled the lower floating supports. Our calculations guided component sizing, while SolidWorks exposed several fit and assembly details that were not obvious from nominal catalog dimensions. The FEA, frame modifications, drawing work and our combined cost estimate complete the final team portfolio.
 
 ### Time Spent
 
