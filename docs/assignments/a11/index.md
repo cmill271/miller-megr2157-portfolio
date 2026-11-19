@@ -21,6 +21,8 @@ Because the selected 1/2"-10 single-start Acme screw advances 2.54 mm per revolu
 
 The motor must provide sufficient torque across this low-speed range. The calculations and design target are shown below.
 
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/4a045435-894a-43a0-b799-8f6d53ae8836" />
+
 Motor Selection Calculation
 
 ### 1.2 Selected Motor and Gearhead
@@ -29,25 +31,30 @@ We selected **two Oriental Motor BLV R Series brushless DC gearmotor systems**, 
 
 The selected package operates from a **24–48 V DC supply**. The supplier specifications, including the speed–torque curve, rated current, drive efficiency and exact package variant, should be retained in the final submission. Two independent motors also require synchronization to move the crosshead evenly; controls are outside the mechanical scope of this assignment.
 
+<img width="980" height="694" alt="image" src="https://github.com/user-attachments/assets/8fe6cee6-39c3-4956-958b-620a7ff560b3" />
 
 
 We downloaded the motor's STEP model and imported it into SolidWorks. We measured the mounting interface directly instead of relying only on nominal drawing dimensions.
 
+<img width="2048" height="1108" alt="image" src="https://github.com/user-attachments/assets/dda6658c-e520-4c2b-bd78-0aafef925e3d" />
 
 
 ### 1.3 Motor Mounting Interface Measurements
 
 The motor has a nominal **80 × 80 mm** flange, a **Ø15 mm keyed output shaft** and **four Ø6.5 mm through mounting holes**. The hole pattern was measured at approximately **66.47 × 66.47 mm**.
 
+<img width="2048" height="1108" alt="image" src="https://github.com/user-attachments/assets/6c143721-3fce-4fe3-9c88-e7ab03816eaa" />
 
+<img width="2048" height="1108" alt="image" src="https://github.com/user-attachments/assets/07912160-e931-4210-b860-53196887af3d" />
 
-
-
+<img width="2048" height="1108" alt="image" src="https://github.com/user-attachments/assets/1a72bf91-11a6-48a6-a475-f0e031e4f156" />
 
 
 The motor's locating boss is approximately **Ø33 mm** and the output shaft is not centered within the square bolt-hole pattern. In particular, our measurements showed a **46.23 mm** vertical offset between the shaft axis and one row of mounting holes. This detail became important when mating the motor to the mounting plate.
 
+<img width="2048" height="1107" alt="image" src="https://github.com/user-attachments/assets/23bf792a-273a-491e-b3c6-6f518ba3417d" />
 
+<img width="2048" height="1107" alt="image" src="https://github.com/user-attachments/assets/a4131f1f-0b57-4051-b41e-da7b9f16ef46" />
 
 
 ## 2. Motor Mounting Bracket — Abdu Mohamed Abdu
@@ -66,18 +73,20 @@ We designed a rectangular motor mounting plate made of **6061-T6 aluminum**. The
 
 Initially, we centered the bolt-hole pattern on the shaft opening. The original symmetric sketch is shown below.
 
-
+<img width="2048" height="1107" alt="image" src="https://github.com/user-attachments/assets/8e6f4259-4b26-4a79-b3b3-21a686152983" />
 
 ### 2.2 Corrected Motor Mounting Pattern
 
 When assembling the motor and plate, we discovered that the imported motor's output shaft was **offset from the midpoint of its mounting holes**. Our initial sketch caused conflicting assembly mates. We corrected the plate sketch to match the measured offset and retained the four-hole pattern supplied by the manufacturer.
 
+<img width="2048" height="1107" alt="image" src="https://github.com/user-attachments/assets/6e62128b-d35c-4569-97ee-97d943c899ac" />
 
 
 The corrected plate was extruded to **6 mm** thickness and successfully mated to the motor.
 
+<img width="2048" height="1107" alt="image" src="https://github.com/user-attachments/assets/3586f3b8-87fe-4a24-a1cc-63e9c6efe7d5" />
 
-
+<img width="2048" height="1107" alt="image" src="https://github.com/user-attachments/assets/411057f2-bcc3-4449-abeb-3d7ca1894df3" />
 
 
 ### 2.3 Bearing Stress and Minimum Thickness
@@ -93,7 +102,9 @@ The approximate bolt-group radius is **47.0 mm**. Under an equal-load-sharing ap
 
 The free-body diagram, symbolic work and numerical solution are shown in our handwritten notes.
 
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/6b589539-4a31-4e27-8c4b-8c9ca61b39cb" />
 
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/772ac3ec-3deb-4fab-95cb-3377024e48c1" />
 
 
 The calculated local hole-bearing stress is below the assumed allowable stress. **This is a preliminary check**, not a full verification of plate bending, deflection, eccentric bolt loading, bolt preload or the frame-side joint. The separate four-hole attachment pattern that secures the plate to the T-slot frame must be finalized alongside Jed's top-frame modifications.
@@ -106,6 +117,7 @@ We selected **two Ruland MSPC-15MM-1/2-F two-piece rigid keyed shaft couplers**,
 
 The two-piece design can be assembled around the shaft ends and provides access to its clamping fasteners. The rigid arrangement requires careful shaft alignment. The lead screw's existing Acme thread is **not a finished keyed journal**, so the top shaft-end interface or adapter must be resolved before a physical build.
 
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/43425296-ce9b-471d-ae00-518b41226c5d" />
 
 
 ### 3.2 Torsional Shear and Thickness Check
@@ -125,6 +137,7 @@ The analysis produced:
 | Estimated idealized material safety factor | 61.6 |
 | Catalog torque rating | 200 N·m |
 
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/c7740ee4-0927-4f83-99c0-a881e731d580" />
 
 
 The catalog rating exceeds the motor's rated torque by a factor of **12.5**. Our simplified annular calculation does **not** include the split line, keyways, clamp fasteners, shaft grip or fatigue. These interface details must be checked separately during final integration.
@@ -137,6 +150,7 @@ To improve the connection between the upper crossmember and the two vertical T-s
 
 The proposed layout uses **two brackets at each upper corner**, for a total of **four connectors**. The exact locations must be matched to the available T-slots and the final top-frame arrangement.
 
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/53170567-304b-4b13-a488-df79915c55c0" />
 
 
 ### 4.2 Motor Reaction and Frame-End Forces
@@ -150,13 +164,14 @@ Using a provisional **40 mm** separation for the resisting force couple and two 
 - **Vertical force per bracket:** 500 N
 - **Resultant force per bracket:** 640.3 N
 
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/412822ec-4ed2-4aa3-9ab2-9e0c9e74bc1e" />
 
 
 ### 4.3 Preliminary Connector Bearing-Stress Check
 
 With a nominal **M8** bolt and a **6 mm** gusset bracket thickness, the simplified local bearing-stress estimate was **13.34 MPa**. Using the assumed **240 MPa** material yield strength and factor of safety four gives a **60 MPa** allowable stress.
 
-
+<img width="1654" height="2048" alt="image" src="https://github.com/user-attachments/assets/2b4189ce-237e-4101-b049-f9db479f9f0e" />
 
 Because the estimated stress is less than the allowable value, the connector is a reasonable **preliminary selection**. This check does not establish complete joint strength or stiffness: connector bending, T-nut engagement, slot pullout, fastener preload and the actual moment lever arm still require verification. Jed's frame FEA will examine the revised top frame and upright members.
 
