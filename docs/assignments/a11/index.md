@@ -177,8 +177,6 @@ Because the estimated stress is less than the allowable value, the connector is 
 
 ## 5. Top Crossmember FEA — Jed Miller
 
-**To be completed by Jed.** Include the top-frame CAD revision, motor and coupler clearance openings, applied axial loads and motor reaction moments, constraints, mesh, maximum von Mises stress, displacement and factor of safety. Add the corresponding simulation screenshots directly beneath each discussion, using the same image style as the existing sections.
-
 ### 5.1 Model and Boundary Conditions
 
 Forces Applied: 
@@ -189,20 +187,24 @@ Forces Applied:
 
 Setup:
 
+<img width="520" height="683" alt="image" src="https://github.com/user-attachments/assets/2bfb6b45-2346-4260-92f8-855685249f5e" />
 
 
 ### 5.2 Stress, Displacement and Safety Factor
 
 Stress: 
 
+<img width="829" height="685" alt="image" src="https://github.com/user-attachments/assets/ec44cdee-4433-40e3-97e3-672b39efc953" />
 
 
 Displacement:
 
+<img width="853" height="707" alt="image" src="https://github.com/user-attachments/assets/dbeb3250-31ee-44a7-af36-358f6db0e367" />
 
 
 Safety Factor:
 
+<img width="837" height="704" alt="image" src="https://github.com/user-attachments/assets/2f795fc7-5573-4f5b-b009-1c67f5caf4d8" />
 
 
 
@@ -211,8 +213,6 @@ Safety Factor:
 Some modifications that can be made to the model would include some reinforcement around the motor insertion point.
 
 ## 6. Vertical Frame FEA — Jed Miller
-
-**To be completed by Jed.** Evaluate the vertical supports under the applied loading and the connection geometry established above. Include constraints, mesh refinement, maximum stress, displacement, safety factor and any optimization.
 
 ### 6.1 Vertical Member Analysis
 
@@ -224,20 +224,24 @@ Forces Applied:
 
 Setup:
 
+<img width="807" height="751" alt="image" src="https://github.com/user-attachments/assets/6149f293-aba0-4c11-926a-7bd37e69933b" />
 
 
 ### 6.2 Results and Optimization
 
 Stress: 
 
+<img width="1001" height="707" alt="image" src="https://github.com/user-attachments/assets/0644af5a-b00d-464b-b8a4-91b8f4092b83" />
 
 
 Deformation:
 
+<img width="895" height="705" alt="image" src="https://github.com/user-attachments/assets/82eee1d4-65a3-4f1f-9112-21ea3afbdac4" />
 
 
 Safety Factor:
 
+<img width="933" height="697" alt="image" src="https://github.com/user-attachments/assets/103a075e-f052-4a95-9a5c-769f4cc34db2" />
 
 
 Optimization:
@@ -254,22 +258,26 @@ We selected a commercially available **Oilite AAM0812-12 bronze sleeve bushing**
 
 The manufacturer's drawing specifies a free bore of **8.010–8.030 mm**, an outside diameter of **12.030–12.050 mm** and a length of **12.000 ± 0.127 mm**.
 
+<img width="960" height="564" alt="image" src="https://github.com/user-attachments/assets/575cc573-0600-4665-ad7d-92aa1d0e4f8c" />
 
 
 ### 7.2 Aluminum Mounting Block
 
 We modeled two matching **6061-T6 aluminum mounting blocks**, each measuring **60 × 40 × 20 mm**. Each has a centered, nominal **Ø12 mm blind pocket, 12 mm deep**, to receive the bushing. Two **Ø6.6 mm** through-holes are spaced **36 mm** apart for proposed M6 fasteners and T-slot nuts at the lower crossmember.
 
+<img width="960" height="564" alt="image" src="https://github.com/user-attachments/assets/8dc6391c-a392-48b9-bca8-86c60001b559" />
 
 
 ### 7.3 Modified Lead Screw Journal and Assembly
 
 The existing Acme screw has a nominal outside diameter of **12.7 mm**, which cannot fit into the bushing's **8 mm** opening. Instead of running the threads directly against the bearing, we added a **smooth nominal Ø8 mm journal, approximately 15 mm long**, to the bottom end of each lead screw in the CAD model. The upper end remains reserved for the motor coupling connection.
 
+<img width="960" height="564" alt="image" src="https://github.com/user-attachments/assets/e43f39be-222e-4b8e-bb8e-5813c72e8912" />
 
 
 We inserted both floating-bearing subassemblies into the main SolidWorks tester assembly, aligned the bushings with the modified screw ends and positioned the mounts on the existing lower T-slot crossmember. The earlier holes used for the lead screws in the lower frame were removed from the CAD model.
 
+<img width="960" height="564" alt="image" src="https://github.com/user-attachments/assets/248f0a0b-e449-4b75-985e-1de5f25fd297" />
 
 
 ### 7.4 Fit, Clearance and Remaining Verification
@@ -311,18 +319,22 @@ The selected frame connectors and floating bearing supports were added to the A1
 
 Motor Mount Bracket:
 
+<img width="805" height="621" alt="image" src="https://github.com/user-attachments/assets/1f796424-3982-4eb3-b75c-b9cbcda1f216" />
 
 
 Cross Head:
 
+<img width="1013" height="782" alt="image" src="https://github.com/user-attachments/assets/f7834026-f4a0-409f-ae94-25e3ff2d599a" />
 
 
 Floating Bearing Mount:
 
+<img width="747" height="579" alt="image" src="https://github.com/user-attachments/assets/61f93c89-d37f-4daf-bbac-d99cb5313c11" />
 
 
 Full Assembly:
 
+<img width="920" height="709" alt="image" src="https://github.com/user-attachments/assets/c4ab00e9-2c97-4abc-87ed-2c1e9ffcd7e0" />
 
 
 ## 11. Lessons Learned
