@@ -351,9 +351,8 @@ Challenges that occurred throughout the assignment included: difficulty getting 
 
 The working SolidWorks models include the imported gearmotor, custom mounting plate, two rigid couplers, 40 Series frame connectors, bronze bushings, custom lower bearing mounts, modified Acme screw-end journals and the full A11 assembly. The final CAD download folder must be added before submission.
 
-**[View and Download A11 CAD Files — Google Drive](PASTE_A11_CAD_FOLDER_LINK_HERE)**
+**[View and Download A11 CAD Files — Google Drive](https://drive.google.com/drive/folders/1D5WJgKQ31YWaRp5UHwt8apPpOH9SMufp?usp=sharing)**
 
-*Jed and Abdu — replace the link above with the final shared CAD folder URL before submitting. The assignment requires a downloadable CAD link.*
 
 ## 13. Conclusion
 
